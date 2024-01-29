@@ -1,0 +1,93 @@
+/* 
+.myFormContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myFormContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #009688;
+  }
+  
+  .myFormContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myFormContainer input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #009688; 
+    border-radius: 5px;
+  }
+  
+  .myFormContainer input::placeholder {
+    color: #757575; 
+  }
+  
+  .myFormContainer button {
+    background-color: #009688;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .myFormContainer button:hover {
+    background-color: #00796b; 
+  }
+   */
+
+   /* options.css */
+
+.myFormContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myFormContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #009688;
+  }
+  
+  .myFormContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myFormContainer select,
+  .myFormContainer input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #009688;
+    border-radius: 5px;
+  }
+  
+  .myFormContainer input::placeholder {
+    color: #757575;
+  }
+  
+  .myFormContainer button {
+    background-color: #009688;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .myFormContainer button:hover {
+    background-color: #00796b;
+  }
+  

@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  color: #222;
+  background-image: url(bg08.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main{
+  padding:10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+div.ftext{
+  margin: 120px 100px;
+  color: rgb(67, 25, 1);
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+  background-color:rgb(159, 201, 235);
+  background: transparent;
+}
+header a{
+  text-decoration: none;
+  color:rgb(67, 25, 1) ;
+}
+header a.logo{
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+header nav{
+  align-items: center;
+  padding-right: 40px;
+  display: flex;
+  gap: 30px;
+}
+.efg{
+  cursor: pointer;
+}
+.abc img{
+  margin-left: 50px;
+}
+form.login{
+  max-width: 400px;
+  margin: 0 auto;
+}
+input{
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 7px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+button{
+  width: 100%;
+  display: block;
+  background-color: #a29d9d;
+  border: 0;
+  color: #fff;
+  border: 5px;
+  padding: 7px 0;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+button:hover {
+  background-color: #3e8e41;
+  cursor: pointer;
+}
+form h1{
+  text-align: center;
+}
